@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "GEOSwift", targets: ["GEOSwift"])
     ],
     dependencies: [
-        .package(url: "https://github.com/GEOSwift/geos.git", from: "8.1.0")
+        .package(url: "https://github.com/flitsmeister/geos.git", branch: "main")
     ],
     targets: [
         .target(
